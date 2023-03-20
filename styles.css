@@ -133,7 +133,7 @@ img{
   width: 100%;
   justify-content: space-around;
   height: 80px;
-  line-height: 80px;
+  line-height: 70px;
   background-color: #FFFFFF;
   box-shadow: rgba(0, 0, 0, 0.8);
   z-index: 10;
@@ -141,7 +141,7 @@ img{
 @media screen and (max-width: 768px){
   .nav__menu{
     position: fixed;
-    top: var(--header-height);
+    top: 80px;
     right: -100%;
     width: 80%;
     height: 100%;
