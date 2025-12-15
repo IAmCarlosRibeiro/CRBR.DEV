@@ -1,13 +1,13 @@
 # 💻 CRBR.DEV - Portfólio Pessoal
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Badge Desenvolvido](http://img.shields.io/static/v1?label=STATUS&message=%20DESENVOLVIDO&color=GREEN&style=for-the-badge)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## 📄 Sobre o Projeto
 
-Este repositório contém o código-fonte do meu portfólio pessoal (**crbr.dev**). O objetivo deste projeto é apresentar minhas habilidades, certificados, experiências e projetos desenvolvidos ao longo da minha jornada como estudante de Ciência da Computação e Desenvolvedor Fullstack.
+Este repositório contém o código-fonte do meu portfólio pessoal (**crbr.dev**). O objetivo deste projeto é apresentar minhas habilidades, certificados, experiências e projetos desenvolvidos ao longo da minha jornada como estudante de Ciência da Computação e Desenvolvedor Backend.
 
 O site foi construído com foco em design responsivo, animações suaves e uma interface moderna e limpa.
 
@@ -66,7 +66,9 @@ Email: crbrdev@gmail.com
 
 WhatsApp: +55 71 99729-8926
 
-Desenvolvido com 💙 por Carlos Ribeiro.
+---
+### 📝 Licença
+##### Este projeto está sob a licença MIT.
 
-```markdown
-![Preview do Site](preview.png)
+---
+Desenvolvido com 💙 por Carlos Ribeiro.
