@@ -53,23 +53,23 @@ const sr = ScrollReveal({
 
 /*SCROLL HOME*/
 sr.reveal('.home__data', {}); 
-sr.reveal('.home__img', {delay: 400}); 
-sr.reveal('.btns-social', { interval: 200 }); // Atualizado para sua nova classe de icones
+sr.reveal('.home__img', {delay: 200}); 
+sr.reveal('.btns-social', { interval: 100 }); // Atualizado para sua nova classe de icones
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img', {}); 
-sr.reveal('.about__subtitle', {delay: 400}); 
-sr.reveal('.about__text', {delay: 400}); 
+sr.reveal('.about__subtitle', {delay: 200}); 
+sr.reveal('.about__text', {delay: 200}); 
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {}); 
 sr.reveal('.skills__text', {}); 
-sr.reveal('.skills__data', {interval: 200}); 
-sr.reveal('.skills__img', {delay: 600});
+sr.reveal('.skills__data', {interval: 100}); 
+sr.reveal('.skills__img', {delay: 300});
 
 /*SCROLL WORK & CERTIFICADOS*/
-sr.reveal('.work__img', {interval: 200}); 
+sr.reveal('.work__img', {interval: 100}); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__input', {interval: 200});
-sr.reveal('.contact__info', {interval: 200}); // Adicionado para os textos de contato
+sr.reveal('.contact__input', {interval: 100});
+sr.reveal('.contact__info', {interval: 100}); // Adicionado para os textos de contato

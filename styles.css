@@ -391,6 +391,12 @@ img {
   row-gap: 2rem;
   text-align: center;
 }
+
+/* Adicionado: Define a margem do subtítulo igual à das caixinhas (mb-4) */
+.skills__subtitle {
+  margin-bottom: var(--mb-4);
+}
+
 .skills__data {
   display: flex;
   justify-content: space-between;
@@ -398,11 +404,12 @@ img {
   position: relative;
   font-weight: var(--font-semi);
   padding: .5rem 1rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-4); /* Esta é a medida que estamos igualando */
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   background: #fff;
 }
+
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);

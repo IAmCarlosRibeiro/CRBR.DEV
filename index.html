@@ -1,128 +1,216 @@
 <!DOCTYPE html>
 <html lang=pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <!-- SEO Geral -->
-	    <title>CRBR.DEV</title>
-	    <meta name="description" content="Carlos Ribeiro - Portfólio.">
-	    <link rel="canonical" href="">
-	    <meta name="author" content="Carlos">
-	    <meta name="robots" content="index">
-        <link rel="stylesheet" 		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+    <!-- SEO Geral -->
+    <title>CRBR.DEV</title>
+    <meta name="description" content="Carlos Ribeiro - Portfólio.">
+    <link rel="canonical" href="">
+    <meta name="author" content="Carlos">
+    <meta name="robots" content="index">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
 
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">crbr<span class="p">.</span>dev</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#certificados" class="nav__link">Certificados</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title"><span class="topline">Bem-vindo(a)</span><br>Eu sou <span
+                        class="home__title-color">Carlos Ribeiro</span><br><span class="multiText">|</span></h1>
+
+                <a href="Carlos Ribeiro CV.pdf" target="_blank" rel="noopener noreferrer"
+                    class="contact__button">Download CV</a>
+            </div>
+
+            <div class="btns-social">
+                <ul class="social-btns">
+                    <!-- GitHub -->
+                    <a href="https://github.com/IAmCarlosRibeiro" target="_blank" rel="noopener noreferrer">
+                        <li class="botao-animado" style="--i:#0f0f0f;--j:#5a5a5a;">
+                            <span class="icon"><i class="fa fa-github"></i></span>
+                            <span class="titulo">github</span>
+                        </li>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/crbr-dev/" target="_blank" rel="noopener noreferrer">
+                        <li class="botao-animado" style="--i:#2a38ff;--j:#33c5ff;">
+                            <span class="icon"><i class="fa fa-linkedin"></i></span>
+                            <span class="titulo">linkedin</span>
+                        </li>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/5571997298926" target="_blank" rel="noopener noreferrer">
+                        <li class="botao-animado" style="--i:#86be6b;--j:#1baf16;">
+                            <span class="icon"><i class="fa fa-whatsapp"></i></span>
+                            <span class="titulo">whatsapp</span>
+                        </li>
+                    </a>
+
+                    <!-- Email (NOVO) -->
+                    <a href="mailto:crbrdev@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <li class="botao-animado" style="--i:#e34133;--j:#ff7b70;">
+                            <span class="icon"><i class="fa fa-envelope"></i></span>
+                            <span class="titulo">email</span>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="home__img">
+                <img src="img1.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Sobre mim</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/Eu.jpg" alt="">
+                </div>
+
                 <div>
-                    <a href="#" class="nav__logo">crbr<span class="p">.</span>dev</a>
+                    <h2 class="about__subtitle">Meu nome é Carlos Eduardo Santos Ribeiro</h2>
+                    <p class="about__text">Estudante de Ciência da Computação e Estagiário em Análise de Sistemas na
+                        Secretaria do Planejamento do Estado da Bahia (SEPLAN/APG). <br><br>
+
+                        Minha trajetória começou no mercado freelancer, onde desenvolvi autonomia técnica resolvendo
+                        problemas de hardware e softwares personalizados. Hoje, trago essa mentalidade resolutiva para o
+                        setor público, atuando no diagnóstico e sustentação de sistemas críticos e painéis de BI.
+                        <br><br>
+
+                        Meu Foco Profissional:
+                        Sou um entusiasta do Backend. Minha paixão não está na interface visual, mas na lógica que faz
+                        tudo funcionar: banco de dados, performance, APIs e estrutura de código. <br><br>
+
+                        No meu dia a dia, lido com: <br>
+                        🛠️ Diagnóstico e Manutenção: Análise de inconformidades, correção de bugs e testes em ambiente
+                        de homologação. <br>
+                        📊 Dados: Suporte a BI e manipulação SQL. <br>
+                        💻 Tech Stack: C, C#, Python, PHP e SQL. <br><br>
+
+                        Busco aproveitar ao máximo cada experiência para construir arquiteturas de software robustas e
+                        eficientes.
+                    </p>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Habilidades</a></li>
-                        <li class="nav__item"><a href="#certificados" class="nav__link">Certificados</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
-                    </ul>
-                </div>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Conhecimentos</h2>
+                    <p class="skills__text"></p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+                        <div class="skills__bar skills__html">
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title"><span class="topline">Bem-vindo(a)</span><br>Eu sou <span class="home__title-color">Carlos Ribeiro</span><br><span class="multiText">|</span></h1>
-
-                    <a href="Carlos Ribeiro CV.pdf" target="_blank" rel="noopener noreferrer" class="contact__button">Download CV</a>
-                </div>
-
-                    <div class="btns-social">
-                      <ul class="social-btns">
-                        <a href="https://github.com/IAmCarlosRibeiro" target="_blank" rel="noopener noreferrer"><li class="botao-animado" style="--i:#0f0f0f;--j:#5a5a5a;">
-                          <span class="icon"><i class="fa fa-github"></i></span>
-                          <span class="titulo">github</span>
-                        </li></a>
-                        <a href="https://twitter.com/IamCarlosRib" target="_blank" rel="noopener noreferrer"><li class="botao-animado" style="--i:#56CCF2;--j:#2F80ED;">
-                          <span class="icon"><i class="fa fa-twitter"></i></span>
-                          <span class="titulo">twitter</span>
-                        </li></a>
-                        <a href="https://wa.me/5571997298926" target="_blank" rel="noopener noreferrer"><li class="botao-animado" style="--i:#86be6b;--j:#1baf16;">
-                          <span class="icon"><i class="fa fa-whatsapp"></i></span>
-                          <span class="titulo">whatsapp</span>
-                        </li></a>
-                        <a href="https://www.linkedin.com/in/crbr-dev/" target="_blank" rel="noopener noreferrer"><li class="botao-animado" style="--i:#2a38ff;--j:#33c5ff;">
-                          <span class="icon"><i class="fa fa-linkedin"></i></span>
-                          <span class="titulo">linkedin</span>
-                        </li></a>
-                        <a href="https://www.instagram.com/iamcarlos.ribeiro/" target="_blank" rel="noopener noreferrer"><li class="botao-animado" style="--i:#FFA9C6;--j:#F434E2;">
-                          <span class="icon"><i class="fa fa-instagram"></i></span>
-                          <span class="titulo">instagram</span>
-                        </li></a>
-                      </ul>
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
                     </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx  bxl-nodejs skills__icon'></i>
+                            <span class="skills__name">Node.js</span>
+                        </div>
+                        <div class="skills__bar skills__nodejs">
 
-                <div class="home__img">    
-                    <img src="./img1.png" alt="">
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">Sobre mim</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="./Eu.jpg" alt="">
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
                     </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">Meu nome é Carlos Eduardo Santos Ribeiro</h2>
-                        <p class="about__text">Estudante de Ciência da Computação e Estagiário em Análise de Sistemas na Secretaria do Planejamento do Estado da Bahia (SEPLAN/APG). <br><br>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-php skills__icon'></i>
+                            <span class="skills__name">PHP</span>
+                        </div>
+                        <div class="skills__bar skills__php">
 
-Minha trajetória começou no mercado freelancer, onde desenvolvi autonomia técnica resolvendo problemas de hardware e software personalizado. Hoje, trago essa mentalidade resolutiva para o setor público, atuando no diagnóstico e sustentação de sistemas críticos e painéis de BI. <br><br>
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-server skills__icon'></i>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__bar skills__sql">
 
-Meu Foco Profissional:
-Sou um entusiasta do Backend. Minha paixão não está na interface visual, mas na lógica que faz tudo funcionar: banco de dados, performance, APIs e estrutura de código. <br><br>
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon'></i>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__python">
 
-No meu dia a dia, lido com: <br>
-🛠️ Diagnóstico e Manutenção: Análise de inconformidades, correção de bugs e testes em ambiente de homologação. <br>
-📊 Dados: Suporte a BI e manipulação SQL. <br>
-💻 Tech Stack: C, C#, Python, PHP e SQL. <br><br>
-
-Busco aproveitar ao máximo cada experiência para construir arquiteturas de software robustas e eficientes.
-                        </p>           
-                    </div>                                   
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
                 </div>
-            </section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Habilidades</h2>
-
-                <div class="skills__container bd-grid">          
+                <div>
                     <div>
-                        <h2 class="skills__subtitle">Conhecimentos</h2>
+                        <h2 class="skills__subtitle">Pontos Fortes</h2>
                         <p class="skills__text"></p>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon'></i>
-                                <span class="skills__name">JavaScript</span>
+                                <i class='bx bxs-brain skills__icon'></i>
+                                <span class="skills__name">Aprendizagem rápida</span>
                             </div>
                             <div class="skills__bar skills__html">
 
@@ -133,23 +221,11 @@ Busco aproveitar ao máximo cada experiência para construir arquiteturas de sof
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx  bxl-nodejs skills__icon' ></i>
-                                <span class="skills__name">Node.js</span>
+                                <i class='bx bxs-planet skills__icon'></i>
+                                <span class="skills__name">Adaptabilidade</span>
                             </div>
-                            <div class="skills__bar skills__nodejs">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage"></span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-php skills__icon'></i>
-                                <span class="skills__name">PHP</span>
-                            </div>
-                            <div class="skills__bar skills__php">
-                                
+                            <div class="skills__bar skills__css">
+
                             </div>
                             <div>
                                 <span class="skills__percentage"></span>
@@ -157,11 +233,11 @@ Busco aproveitar ao máximo cada experiência para construir arquiteturas de sof
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxs-server skills__icon'></i>
-                                <span class="skills__name">SQL</span>
+                                <i class='bx bxs-edit skills__icon'></i>
+                                <span class="skills__name">Olhar crítico</span>
                             </div>
-                            <div class="skills__bar skills__sql">
-                                
+                            <div class="skills__bar skills__js">
+
                             </div>
                             <div>
                                 <span class="skills__percentage"></span>
@@ -169,106 +245,53 @@ Busco aproveitar ao máximo cada experiência para construir arquiteturas de sof
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-python skills__icon'></i>
-                                <span class="skills__name">Python</span>
+                                <i class='bx bx-target-lock skills__icon'></i>
+                                <span class="skills__name">Foco e dedicação</span>
                             </div>
-                            <div class="skills__bar skills__python">
-                                
+                            <div class="skills__bar skills__ux">
+
                             </div>
                             <div>
                                 <span class="skills__percentage"></span>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div>
-                        <div>
-                            <h2 class="skills__subtitle">Pontos Fortes</h2>
-                            <p class="skills__text"></p>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxs-brain skills__icon'></i>
-                                    <span class="skills__name">Aprendizagem rápida</span>
-                                </div>
-                                <div class="skills__bar skills__html">
-    
-                                </div>
-                                <div>
-                                    <span class="skills__percentage"></span>
-                                </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-florist skills__icon'></i>
+                                <span class="skills__name">Criatividade</span>
                             </div>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxs-planet skills__icon' ></i>
-                                    <span class="skills__name">Adaptabilidade</span>
-                                </div>
-                                <div class="skills__bar skills__css">
-                                    
-                                </div>
-                                <div>
-                                    <span class="skills__percentage"></span>
-                                </div>
+                            <div class="skills__bar skills__ux">
+
                             </div>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxs-edit skills__icon'></i>
-                                    <span class="skills__name">Olhar crítico</span>
-                                </div>
-                                <div class="skills__bar skills__js">
-                                    
-                                </div>
-                                <div>
-                                    <span class="skills__percentage"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bx-target-lock skills__icon'></i>
-                                    <span class="skills__name">Foco e dedicação</span>
-                                </div>
-                                <div class="skills__bar skills__ux">
-                                    
-                                </div>
-                                <div>
-                                    <span class="skills__percentage"></span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxs-florist skills__icon'></i>
-                                    <span class="skills__name">Criatividade</span>
-                                </div>
-                                <div class="skills__bar skills__ux">
-                                    
-                                </div>
-                                <div>
-                                    <span class="skills__percentage"></span>
-                                </div>
+                            <div>
+                                <span class="skills__percentage"></span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="certificados">
-                <h2 class="section-title">Certificados</h2>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="certificados">
+            <h2 class="section-title">Certificados</h2>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Cursos:</h2>
-                        <p class="skills__text"></p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-data skills__icon' ></i>
-                                <span class="skills__name">Ciência da Computação</span> 
-                            </div>
-                            <div class="skills_subtitles">
-                                <span class="skills__sub skills__js" style="color: #713d8fbb !important;">Ensino Superior - Uniruy</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                          <!--  </div>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Cursos:</h2>
+                    <p class="skills__text"></p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-data skills__icon'></i>
+                            <span class="skills__name">Ciência da Computação</span>
+                        </div>
+                        <div class="skills_subtitles">
+                            <span class="skills__sub skills__js" style="color: #713d8fbb !important;">Ensino Superior -
+                                Uniruy</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                            <!--  </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
@@ -308,17 +331,18 @@ Busco aproveitar ao máximo cada experiência para construir arquiteturas de sof
                     <div>              
                         <img src="./img3.png" alt="" class="skills__img">
                     </div> -->
-                </div> 
-            </section>
+                        </div>
+        </section>
 
-            <!--===== WORK =====--> 
-            <section class="work section" id="portfolio">
-                <h2 class="section-title">Portfolio</h2>
-                <div class="work__container bd-grid">
-                    <!--
-                    <div class="work__img">
-                        <img src="assets/img/work1.png" alt="">
-                    </div>
+        <!--===== WORK =====-->
+        <section class="work section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="work__container bd-grid">
+                <a href="https://github.com/IAmCarlosRibeiro/Projeto-Checkin" target="_blank" rel="noopener noreferrer" class="work__img">
+                    <img src="assets/img/work1.png" alt="Descrição do Projeto">
+                </a>
+            </div>
+            <!--
                     <div class="work__img">
                         <img src="assets/img/work2.png" alt="">
                     </div>
@@ -427,10 +451,10 @@ Busco aproveitar ao máximo cada experiência para construir arquiteturas de sof
                         <img src="assets/img/img4.png" alt="">
                     </div>
                 </div> -->
-            </section>
+        </section>
 
-            <!--===== EVOLUTION =====-->
-            <!-- <section class="work section" id="work">
+        <!--===== EVOLUTION =====-->
+        <!-- <section class="work section" id="work">
                 <h2 class="section-title">Minha evolução
                 </h2>
 
@@ -456,8 +480,8 @@ Busco aproveitar ao máximo cada experiência para construir arquiteturas de sof
                 </div>
             </section> -->
 
-            <!--===== CONTACT =====-->
-            <!--<section class="contact section" id="contact">
+        <!--===== CONTACT =====-->
+        <!--<section class="contact section" id="contact">
                 <h2 class="section-title">Contato</h2>
 
                 <div class="contact__container bd-grid">
@@ -478,85 +502,89 @@ Busco aproveitar ao máximo cada experiência para construir arquiteturas de sof
                 </div>
             </section>-->
 
-             <!--===== CONTACT =====-->
-             <section class="contact section" id="contact">
-                <h2 class="section-title">Contato</h2>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contato</h2>
 
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">crbrdev@gmail.com</span>
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">crbrdev@gmail.com</span>
 
-                        <h3 class="contact__subtitle">NUMERO</h3>
-                        <span class="contact__text">+55 (71) 99729-8926</span>
+                    <h3 class="contact__subtitle">NUMERO</h3>
+                    <span class="contact__text">+55 (71) 99729-8926</span>
 
-                        <h3 class="contact__subtitle">ENDEREÇO</h3>
-                        <span class="contact__text">Salvador - BA, Brasil</span>
+                    <h3 class="contact__subtitle">ENDEREÇO</h3>
+                    <span class="contact__text">Salvador - BA, Brasil</span>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Nome" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
                     </div>
 
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Nome" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
-                        </div>
+                    <textarea name="" placeholder="Mensagem" id="" cols="0" rows="10" class="contact__input"></textarea>
 
-                        <textarea name="" placeholder="Mensagem" id="" cols="0" rows="10" class="contact__input"></textarea>
-
-                        <input type="submit" value="Enviar" class="contact__button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">Carlos Eduardo Santos Ribeiro</h2>
-                    <p class="footer__text">Desenvolvido por Carlos Eduardo Santos Ribeiro</p>
-                    <p class="footer__text">Salvador, BA, Brasil</p>
-                </div>
-
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORE</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">Sobre</a></li>
-                        <li><a href="#skills" class="footer__link">Habilidades</a></li>
-                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                        <li><a href="#Contact" class="footer__link">Contatos</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer__data">
-                    <h2 class="footer__title">SIGA</h2>
-                    <a href="https://github.com/IAmCarlosRibeiro" target="_blank" class="footer__social"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/crbr-dev/" target="_blank" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://wa.me/5571997298926" target="_blank" class="footer__social"><i class='bx bxl-whatsapp' ></i></a>
-                </div>
-
-
+                    <input type="submit" value="Enviar" class="contact__button">
+                </form>
             </div>
-        </footer>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">Carlos Eduardo Santos Ribeiro</h2>
+                <p class="footer__text">Desenvolvido por Carlos Eduardo Santos Ribeiro</p>
+                <p class="footer__text">Salvador, BA, Brasil</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">Sobre</a></li>
+                    <li><a href="#skills" class="footer__link">Habilidades</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="#Contact" class="footer__link">Contatos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">SIGA</h2>
+                <a href="https://github.com/IAmCarlosRibeiro" target="_blank" class="footer__social"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/crbr-dev/" target="_blank" class="footer__social"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://wa.me/5571997298926" target="_blank" class="footer__social"><i
+                        class='bx bxl-whatsapp'></i></a>
+            </div>
+
+
+        </div>
+    </footer>
 
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="./main.js"></script>
+    <!--===== MAIN JS =====-->
+    <script src="./main.js"></script>
 
-        <!--===== TypeScript =====-->
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--===== TypeScript =====-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        var typingEffect = new Typed(".multiText",{
-            strings : ["|", "Desenvolvedor Backend.", "Estudante.", "Analista de Sistemas."],
-            loop : true,
-            typeSpeed : 100,
-            backSpeed : 80,
-            backDelay : 1500
+        var typingEffect = new Typed(".multiText", {
+            strings: ["|", "Desenvolvedor Backend.", "Estudante.", "Analista de Sistemas."],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
         })
     </script>
-    </body>
+</body>
+
 </html>
