@@ -67,7 +67,7 @@ Email: crbrdev@gmail.com
 ---
 
 ### 📝 Licença
-##### Este projeto está sob a licença MIT.
+##### Este projeto está sob a licença GPL-3.0.
 
 ---
 
