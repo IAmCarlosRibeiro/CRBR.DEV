@@ -58,17 +58,17 @@ $ cd crbr-portfolio
 
 Carlos Eduardo Santos Ribeiro
 
-LinkedIn: Carlos Ribeiro
+LinkedIn: @crbr-dev
 
 GitHub: IAmCarlosRibeiro
 
 Email: crbrdev@gmail.com
 
-WhatsApp: +55 71 99729-8926
-
 ---
+
 ### 📝 Licença
 ##### Este projeto está sob a licença MIT.
 
 ---
+
 Desenvolvido com 💙 por Carlos Ribeiro.
