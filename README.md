@@ -4,6 +4,7 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## 📄 Sobre o Projeto
 
@@ -58,17 +59,17 @@ $ cd crbr-portfolio
 
 Carlos Eduardo Santos Ribeiro
 
-LinkedIn: Carlos Ribeiro
+LinkedIn: @crbr-dev
 
 GitHub: IAmCarlosRibeiro
 
 Email: crbrdev@gmail.com
 
-WhatsApp: +55 71 99729-8926
-
 ---
+
 ### 📝 Licença
-##### Este projeto está sob a licença MIT.
+##### Este projeto está sob a licença GPL-3.0.
 
 ---
+
 Desenvolvido com 💙 por Carlos Ribeiro.
